@@ -1,0 +1,34 @@
+{
+    // "compileOnSave": false,
+    "compilerOptions": {
+    //   "rootDir": ".",
+    //   "sourceMap": true,
+    //   "declaration": false,
+      "moduleResolution": "node",
+    //   "emitDecoratorMetadata": true,
+    //   "experimentalDecorators": true,
+    //   "importHelpers": true,
+      "target": "ES2022",
+    //   "module": "commonjs",
+      "lib": ["ES2022"], // Adding "DOM" fixes the ArkType pipe type errors
+    //   "jsx": "react-jsx",
+    //   "skipLibCheck": true,
+    //   "skipDefaultLibCheck": true,
+    //   "baseUrl": ".",
+    //   "esModuleInterop": true,
+    //   "removeComments": true,
+    //   "forceConsistentCasingInFileNames": true,
+    //   "incremental": true,
+    //   "alwaysStrict": true,
+    //   "strictFunctionTypes": true,
+    //   "noImplicitAny": true,
+    //   "noImplicitThis": true,
+    //   "noFallthroughCasesInSwitch": true,
+    //   "noImplicitReturns": true,
+    //   "resolveJsonModule": true,
+      "strict": true,
+      "types": ["node"],
+    },
+    // "exclude": ["node_modules", "tmp"]
+  }
+  
